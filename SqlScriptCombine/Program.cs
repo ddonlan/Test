@@ -69,6 +69,8 @@ namespace SqlScriptCombine
                 @"C:\Users\Dan\Documents\Fidelis Templates\FD TCS Procedures\FDSSP_TCS_ENROLLMENT_LETTER_LOAD.sql"));
             outFile.AppendLine("");
 
+            outFile.AppendLine("");
+
             File.WriteAllText(@"C:\Users\Dan\Documents\Fidelis Templates\FD TCS Procedures\Install.sql", outFile.ToString());
         }
     }
